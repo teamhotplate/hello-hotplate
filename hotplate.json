@@ -1,0 +1,20 @@
+{
+  "name": "hello-hotplate",
+  "description": "Hotplate Demo Project",
+  "params": [
+    {
+      "name": "name",
+      "type": "string",
+      "description": "Your name"
+    },
+    {
+      "name": "color",
+      "type": "string",
+      "description": "Your favorite color (HTML code)"
+    }
+  ],
+  "templates": [
+    "/myProject/hello.html",
+    "/myProject/css/style.css"
+  ]
+}
